@@ -21,3 +21,6 @@ console.log(numberOfVowels("lighthouse labs"));
 console.log(numberOfVowels("aeiou"));
 
 
+const instructorWithLongestName = function(instructors) {
+  // Put your solution here
+};
