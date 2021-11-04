@@ -1,4 +1,3 @@
-const name= 'Hi my name is Flavio'
-let name1 = name.replace(/\s/g, '') //HimynameisFlavio
-document.write(name1)   
-document.write(name1)
+var str = "A quick Brown Fox";   
+var replaced = str.replace(" ", "%20");
+console.log(replaced)
