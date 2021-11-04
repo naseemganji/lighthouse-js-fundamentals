@@ -20,7 +20,8 @@ console.log(numberOfVowels("orange"));
 console.log(numberOfVowels("lighthouse labs"));
 console.log(numberOfVowels("aeiou"));
 
+// function for finding instructors with longer names
+function instructorWithLongestName(InstructorName) {
+  let String  = InstructorName.tostring()
 
-const instructorWithLongestName = function(instructors) {
-  // Put your solution here
-};
+}
