@@ -2,15 +2,15 @@ let sumLargestNumbers = function (data) {
   let largeNum1 = 0;
   let largeNum2 = 0;
 
-  // find the first large number
-  for (let i = 0; i < data.length; i++) {
+
+  for (let i = 0; i < data.length; i++) {/* find the first large number */
     if (data[i] > largeNum1) {
       largeNum1 = data[i];
     }
   }
 
 
-  for (let j = 0; j < data.length; j++) {   // find the second large number
+  for (let j = 0; j < data.length; j++) {   /* find the second large number*/
     if (data[j] !== largeNum1 && data[j] > largeNum2) {
       largeNum2 = data[j];
 
